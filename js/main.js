@@ -38,3 +38,11 @@ function mayorDeTres(a, b, c) {
     }
 }
 console.log(mayorDeTres(100,100,300))
+
+
+// Ejercicio 5 ---- F = (C * 9/5) + 32.
+function celsiusAFahrenheit(celsius) {
+let fahrenheit = (celsius * 9/5) +32
+return fahrenheit
+}
+console.log(celsiusAFahrenheit(88))
